@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.img-css{
+	border-radius: 50%;
+}
+body{
+	font-family: 'Lobster', cursive;
+}
+h3{
+	font-family: 'Times New Roman ', sans-serif;
+	display: block;
+	font-size: 20px;
+}
+.education{
+	font-size: 30px;
+	margin-left: 0;
+}
+.class1{
+	margin-left: 125px;
+	margin-bottom: 0rem;
+}
+li{
+	font-size: 18px;
+}
+.footer{
+	margin-bottom: 0;
+	position: fixed;
+ 	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+}
+.btn1{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+ 
+@media only screen and (max-width: 765px) {
+  
+  .class1{
+  	margin-left: 0;
+   }
+   .res{
+   	display: flex;
+   	justify-content: center;
+   	align-items: center;
+   	flex-direction: column;
+
+   }
+   .img-css{
+   	height: 280px;
+   	width: 250px;
+   	display: flex;
+   	justify-content: center;
+   	align-items: center;
+   	margin: auto;
+   }
+   .my-1{
+   	margin-top: 1.2rem !important;
+   	margin-bottom: 1.2rem !important;
+   }
+
+}
